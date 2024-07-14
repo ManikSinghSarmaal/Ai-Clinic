@@ -11,6 +11,13 @@ AI Clinic is a project for the 2040 Human Machine Integration hackathon. It serv
 - Privacy and Data Vault: Secure storage of health data using Proton Drive.
 - Premium Subscription Models: Access advanced AI diagnostics and personalized health plans.
 
+## Demo
+
+Upon succesful setup of this repo, you can see the AI Clinic web interface like this:
+
+### Home Page
+![Home Page](static/images/img.png)
+
 ## Requirements
 
 - Python 3.7+
