@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron text-center">
+    <img src="{{ url_for('static', filename='images/logo.png') }}" alt="AI Clinic Logo" class="logo">
+    <h1>Welcome to AI Clinic</h1>
+    <p>Your health, our priority</p>
+    <a href="/features" class="btn btn-primary">Learn More</a>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+        <h3>Health Monitoring Sensors</h3>
+        <p>Continuous monitoring of vital signs such as glucose levels, heart rate, blood pressure, and more.</p>
+    </div>
+    <div class="col-sm-4">
+        <h3>AI Diagnostic Model</h3>
+        <p>Predictive analytics based on sensor data and historical health records.</p>
+    </div>
+    <div class="col-sm-4">
+        <h3>Subscription Plans</h3>
+        <p>Choose from AI-based doctor plans or online consultations with human doctors.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12 text-center mt-4">
+        <h3>Premium Subscription Models</h3>
+        <p>Access advanced AI diagnostics and personalized health plans with our premium subscription options. Discuss your needs with us to find the perfect plan for you.</p>
+    </div>
+</div>
+{% endblock %}

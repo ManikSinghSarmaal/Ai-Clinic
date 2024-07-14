@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.header {
+    text-align: center;
+    padding: 50px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.jumbotron .logo {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+}
